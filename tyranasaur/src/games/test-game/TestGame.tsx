@@ -43,7 +43,7 @@ const TestGame: React.FC = () => {
         <div className="phaser-container">
             <div ref={gameContainer} />
             <div style={{ marginTop: '10px', display: 'block' }}>
-                <button onClick={() => navigate('/')}>Back to Menu</button>
+                <button onClick={() => navigate('/tyranasaur')}>Back to Menu</button>
             </div>
         </div>
     );

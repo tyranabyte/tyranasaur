@@ -10,7 +10,7 @@ export default class GameScene extends Phaser.Scene {
     }
 
     preload() {
-        this.load.spritesheet('tiles', '/classic-roguelike.png', {
+        this.load.spritesheet('tiles', './classic-roguelike.png', {
             frameWidth: 8,
             frameHeight: 8
         });

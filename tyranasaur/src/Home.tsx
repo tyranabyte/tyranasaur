@@ -8,7 +8,7 @@ const Home: React.FC = () => {
             <nav>
                 <ul>
                     <li>
-                        <Link to="/game1">Play Game 1</Link>
+                        <Link to="/tyranasaur/game1">Play Game 1</Link>
                     </li>
                 </ul>
             </nav>

@@ -1,0 +1,10 @@
+.phaser-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    .phaser-container > button {
+        margin-top: 10px;
+    }

@@ -20,10 +20,12 @@ const TestGame: React.FC = () => {
                 physics: {
                     default: 'arcade',
                     arcade: {
-                        gravity: { x: 0, y: 0 }, // No gravity
-                        debug: true // Set to true for debugging
+                        gravity: { x: 0, y: 0 },
+                        debug: true
                     }
                 },
+                pixelArt: true,
+                title: "Test Game"
             };
 
             testGameRef.current = new Phaser.Game(config);
